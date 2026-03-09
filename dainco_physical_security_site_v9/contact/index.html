@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>DAINCO 물리보안 · 문의</title>
+  <meta name="description" content="DAINCO 물리보안 문의 페이지."/>
+  <link rel="stylesheet" href="../assets/styles.css"/>
+  <link rel="icon" href="../assets/img/favicon.png" type="image/png"/>
+  <meta name="theme-color" content="#AD171C"/>
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="../index.html">
+          <img class="brand-logo" src="../assets/img/dainco-logo.jpg" alt="DAINCO 로고"/>
+          <span style="font-weight:800; color: var(--muted);">물리보안</span>
+        </a>
+    <nav class="navlinks">
+      <a href="../index.html">홈</a>
+      <a href="../solutions/index.html">추천 솔루션</a>
+      <a href="../products/index.html">제품</a>
+      <a href="../downloads/index.html">기술자료</a>
+      <a href="../services/index.html">서비스</a>
+      <a href="../contact/index.html">문의</a>
+    </nav>
+  </div>
+</header>
+
+
+<main class="container">
+  <section class="hero hero-split">
+    <div class="hero-content">
+      <div class="badge">Contact</div>
+      <h1>도입 문의</h1>
+      <p>
+        현장 조건과 요구사항을 알려주시면, 적합한 구성과 적용 방법을 제안드립니다.
+        <br/><span class="muted">빠른 상담을 위해 설치 환경(펜스/매설/개활지/게이트)과 예상 구간 길이를 함께 남겨주세요.</span>
+      </p>
+      <div class="btnrow">
+        <a class="btn btn-primary" href="mailto:info@dainco.co.kr">메일 문의</a>
+        <a class="btn btn-ghost" href="../products/index.html">제품 보기</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <img src="../assets/img/hero-camera-fence.webp" alt="문의 이미지"/>
+    </div>
+  </section>
+
+
+  <section class="grid">
+    <div class="card" style="grid-column: span 5;">
+      <div class="badge">연락처</div>
+      <h3 style="margin-top:12px;">DAINCO 물리보안</h3>
+      <p>
+        웹사이트: <a href="http://www.dainco.co.kr" target="_blank" rel="noopener"><b>www.dainco.co.kr</b></a><br/>
+        이메일: <b>info@dainco.co.kr</b><br/>
+        전화: <b>031-214-0831</b><br/>
+        주소: <b>경기도 용인시 기흥구 기흥로 58-1, A동 504호 (구갈동, 기흥ICT밸리 SK V1) 16942</b>
+      </p>
+      <div class="meta"><small>제품/현장/연동/견적 문의는 위 연락처로 접수 가능합니다.</small></div>
+    </div>
+
+    <div class="card" style="grid-column: span 7;">
+      <div class="badge">문의 폼(예시)</div>
+      <h3 style="margin-top:12px;">필수 정보만, 짧게</h3>
+      <p class="muted" style="margin-bottom:10px;">운영 관점에서 필요한 최소 질문만 남기고, 나머지는 상담에서 채우는 방식이 전환율이 좋습니다.</p>
+
+      <div class="row">
+        <div style="flex:1;">
+          <label>회사명</label>
+          <input id="c_company" type="text" placeholder="예: DAINCO"/>
+        </div>
+        <div style="flex:1;">
+          <label>담당자명</label>
+          <input id="c_name" type="text" placeholder="예: 홍길동"/>
+        </div>
+      </div>
+
+      <div class="row">
+        <div style="flex:1;">
+          <label>이메일</label>
+          <input id="c_email" type="email" placeholder="name@company.com"/>
+        </div>
+        <div style="flex:1;">
+          <label>전화번호</label>
+          <input id="c_phone" type="tel" placeholder="010-0000-0000"/>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>관심 분야</label>
+        <select id="c_topic">
+          <option>경계 침입감지</option>
+          <option>게이트/출입구</option>
+          <option>매설형 센서</option>
+          <option>3D LiDAR</option>
+          <option>통합관제</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>문의 내용</label>
+        <textarea id="c_message" rows="4" placeholder="예: 펜스 3km 구간, 오경보 최소화, 관제 연동 필요"></textarea>
+      </div>
+
+      <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
+        <button class="btn btn-primary" id="contact-send" type="button">문의 메일 작성</button>
+        <a class="btn btn-ghost" href="../products/index.html">제품 먼저 보기</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+      <div>
+        <div style="font-weight:900; color: var(--text);">DAINCO · Physical Security</div>
+        <small>이 사이트는 DAINCO 물리보안 제품/스펙/기술자료 업데이트를 고려한 구조로 구성했습니다.</small><br/><small class="muted">Hero photos: Unsplash (Charlie Firth, Kurdistan Photo)</small>
+      </div>
+      <div style="text-align:right;">
+        <small>© 2026 DAINCO. All rights reserved.</small>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  const btn = document.getElementById('contact-send');
+  if(!btn) return;
+  btn.addEventListener('click', function(){
+    const name = (document.getElementById('c_name')?.value || '').trim();
+    const company = (document.getElementById('c_company')?.value || '').trim();
+    const email = (document.getElementById('c_email')?.value || '').trim();
+    const phone = (document.getElementById('c_phone')?.value || '').trim();
+    const topic = (document.getElementById('c_topic')?.value || '').trim();
+    const msg = (document.getElementById('c_message')?.value || '').trim();
+
+    const subject = encodeURIComponent(`[DAINCO 물리보안] 도입 문의 - ${topic || '일반 문의'}`);
+    const bodyLines = [
+      `이름/직함: ${name}`,
+      `회사명: ${company}`,
+      `이메일: ${email}`,
+      `전화번호: ${phone}`,
+      `관심 분야: ${topic}`,
+      '',
+      '문의 내용:',
+      msg || '(내용 미입력)'
+    ];
+    const body = encodeURIComponent(bodyLines.join('\n'));
+    window.location.href = `mailto:info@dainco.co.kr?subject=${subject}&body=${body}`;
+  });
+})();
+</script>
+
+<script src="../assets/app.js" defer></script>
+</body>
+</html>

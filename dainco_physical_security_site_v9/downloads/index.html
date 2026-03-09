@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>DAINCO 물리보안 · 기술자료</title>
+<meta content="DAINCO 물리보안 기술자료 다운로드 센터. 제품/유형/언어/검색 필터 지원." name="description"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<link href="../assets/img/favicon.png" rel="icon" type="image/png"/>
+<meta content="#AD171C" name="theme-color"/>
+</head>
+<body>
+<header class="header">
+<div class="container nav">
+<a class="brand" href="../index.html">
+<img alt="DAINCO 로고" class="brand-logo" src="../assets/img/dainco-logo.jpg"/>
+<span style="font-weight:800; color: var(--muted);">물리보안</span>
+</a>
+<nav class="navlinks">
+<a href="../index.html">홈</a>
+<a href="../solutions/index.html">추천 솔루션</a>
+<a href="../products/index.html">제품</a>
+<a href="../downloads/index.html">기술자료</a>
+<a href="../services/index.html">서비스</a>
+<a href="../contact/index.html">문의</a>
+</nav>
+</div>
+</header>
+<main class="container">
+<section class="hero hero-split">
+    <div class="hero-content">
+      <div class="badge">Downloads</div>
+      <h1>기술자료 센터</h1>
+      <p>
+        문서는 파일이 아니라 <b>문서(정체성) → 버전(Release) → 언어/파일(Asset)</b> 구조로 관리합니다.
+        <br/><span class="muted">제품 기술자료가 계속 늘어나는 환경에서, 업데이트가 누적돼도 구조가 깨지지 않도록 설계했습니다.</span>
+      </p>
+      <div class="btnrow">
+        <a class="btn btn-primary" href="../products/index.html">제품에서 찾기</a>
+        <a class="btn btn-ghost" href="../contact/index.html">자료 요청</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <img src="../assets/img/hero-control-room.webp" alt="기술자료 이미지"/>
+    </div>
+  </section>
+
+<div class="layout">
+<aside class="filters" style="position: static; top:auto;">
+<h3>필터</h3>
+<div class="field">
+<label>검색</label>
+<input id="dq" placeholder="예: 데이터시트, 발표자료, FP1150, XField" type="text"/>
+</div>
+<div class="field">
+<label>제품</label>
+<select id="dproduct">
+<option value="">전체</option>
+<option value="COMMON">공통(DAINCO)</option>
+<option value="P-SEC-004">FiberPatrol FP1150</option>
+<option value="P-SEC-005">XField</option>
+<option value="P-SEC-001">FlexZone</option>
+<option value="P-SEC-006">Senstar MultiSensor</option>
+<option value="P-SEC-007">Smart 3D LiDAR</option>
+<option value="P-SEC-008">OmniTrax</option>
+</select>
+</div>
+<div class="field">
+<label>문서 유형</label>
+<select id="dtype">
+<option value="">전체</option>
+<option value="datasheet">데이터시트</option>
+<option value="product-presentation">제품 발표자료</option>
+<option value="brochure">브로셔</option>
+<option value="installation-guide">설치 가이드</option>
+<option value="integration-guide">연동 가이드</option>
+<option value="operating-manual">사용자 매뉴얼</option>
+<option value="release-notes">릴리즈노트</option>
+</select>
+</div>
+<div class="field">
+<label>언어</label>
+<select id="dlang">
+<option value="">전체</option>
+<option value="ko">KO</option>
+<option value="en">EN</option>
+</select>
+</div>
+<div style="display:flex; gap:10px; flex-wrap:wrap;">
+<button class="btn btn-ghost" id="dreset" type="button">초기화</button>
+<a class="btn btn-primary" href="../products/index.html">제품 찾기</a>
+</div>
+<div style="margin-top:12px;">
+<small class="muted">업로드 파일은 실제로 다운로드 가능하도록 연결했습니다(EN/KO).</small>
+</div>
+</aside>
+<section>
+<div class="section-title" style="margin-top:0;">
+<h2>문서 목록</h2>
+<div class="sub" id="download-count">0개 문서</div>
+</div>
+<table class="table">
+<thead>
+<tr>
+<th>문서</th>
+<th style="width:140px;">유형</th>
+<th style="width:110px;">버전</th>
+<th style="width:150px;">언어/상태</th>
+<th style="width:130px; text-align:right;">다운로드</th>
+</tr>
+</thead>
+<tbody id="download-results"></tbody>
+</table>
+<div style="height: 18px;"></div>
+<section class="card">
+<div class="badge">운영 가이드</div>
+<h3 style="margin-top:12px;">파일이 늘어날수록 ‘최신/구버전’ 노출 정책이 중요합니다</h3>
+<p>
+          예: 설치 가이드/릴리즈노트/펌웨어는 계속 버전이 증가합니다.
+          최신 버전만 기본 노출하고, 과거 버전은 “구버전 보기”로 보관하는 방식이
+          현장 대응과 유지보수에 유리합니다.
+        </p>
+</section>
+<section class="card" style="margin-top:14px;">
+<div class="badge">Reference</div>
+<h3 style="margin-top:12px;">영상/외부 링크</h3>
+<p class="muted" style="margin: 0 0 10px;">업로드된 자료에 포함된 레퍼런스(영상/웹사이트)를 웹에서 바로 확인할 수 있게 연결했습니다.</p>
+<ul style="margin: 10px 0 0; padding-left: 18px;">
+<li><a href="https://youtu.be/5fT1j8nriG0" rel="noopener" target="_blank">센서 퓨전 엔진(Sensor Fusion Engine) 영상</a></li>
+<li><a href="https://youtu.be/7ab_FCeyzX4" rel="noopener" target="_blank">Senstar MultiSensor 영상</a></li>
+<li><a href="https://www.senstar.com" rel="noopener" target="_blank">Senstar 공식 웹사이트(추가 데이터시트/브로셔/매뉴얼)</a></li>
+<li><a href="files/dainco-pids.pdf" rel="noopener" target="_blank">DAINCO PIDS 소개 자료(PDF)</a></li>
+</ul>
+</section>
+</section>
+</div>
+</main>
+<script id="downloads-data" type="application/json">[{"doc_id": "DOC-004-EN-001", "product_id": "P-SEC-004", "product_name": "FiberPatrol FP1150", "title_ko": "FiberPatrol FP1150 제품 발표자료", "doc_type": "product-presentation", "doc_type_label": "제품 발표자료", "version_label": "2021", "lang": "en", "file_url": "files/fiberpatrol-fp1150-presentation-2021.pdf"}, {"doc_id": "DOC-005-EN-001", "product_id": "P-SEC-005", "product_name": "XField", "title_ko": "XField 데이터시트", "doc_type": "datasheet", "doc_type_label": "데이터시트", "version_label": "EN", "lang": "en", "file_url": "files/xfield-datasheet-en.pdf"}, {"doc_id": "DOC-001-KO-001", "product_id": "P-SEC-001", "product_name": "FlexZone", "title_ko": "FlexZone 데이터시트", "doc_type": "datasheet", "doc_type_label": "데이터시트", "version_label": "KO", "lang": "ko", "file_url": "files/flexzone-datasheet-ko.pdf"}, {"doc_id": "DOC-001-KO-002", "product_id": "P-SEC-001", "product_name": "FlexZone", "title_ko": "스마트 외곽보안 시스템 카탈로그(다인S&T)", "doc_type": "brochure", "doc_type_label": "브로셔", "version_label": "2021~2022", "lang": "ko", "file_url": "files/smart-perimeter-fence-catalog-ko.pdf"}, {"doc_id": "DOC-006-EN-001", "product_id": "P-SEC-006", "product_name": "Senstar MultiSensor", "title_ko": "Senstar MultiSensor 제품 발표자료", "doc_type": "product-presentation", "doc_type_label": "제품 발표자료", "version_label": "—", "lang": "en", "file_url": "files/senstar-multisensor-product-presentation.pdf"}, {"doc_id": "DOC-007-EN-001", "product_id": "P-SEC-007", "product_name": "Smart 3D LiDAR", "title_ko": "Senstar Smart 3D LiDAR 개요 발표자료", "doc_type": "product-presentation", "doc_type_label": "제품 발표자료", "version_label": "—", "lang": "en", "file_url": "files/senstar-smart-3d-lidar-overview.pdf"}, {"doc_id": "DOC-008-EN-001", "product_id": "P-SEC-008", "product_name": "OmniTrax", "title_ko": "OmniTrax 제품 발표자료", "doc_type": "product-presentation", "doc_type_label": "제품 발표자료", "version_label": "—", "lang": "en", "file_url": "files/omnitrax-product-presentation.pdf"}, {"doc_id": "DOC-COMMON-KO-001", "product_id": "COMMON", "product_name": "공통 자료", "title_ko": "DAINCO 외곽 침입감지(PIDS) 소개 자료", "doc_type": "brochure", "doc_type_label": "브로셔", "version_label": "—", "lang": "ko", "file_url": "files/dainco-pids.pdf"}]</script>
+<footer class="footer">
+<div class="container">
+<div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+<div>
+<div style="font-weight:900; color: var(--text);">DAINCO · Physical Security</div>
+<small>이 사이트는 DAINCO 물리보안 제품/스펙/기술자료 업데이트를 고려한 구조로 구성했습니다.</small><br/><small class="muted">Hero photos: Unsplash (Charlie Firth, Kurdistan Photo)</small>
+</div>
+<div style="text-align:right;">
+<small>© 2026 DAINCO. All rights reserved.</small>
+</div>
+</div>
+</div>
+</footer>
+<script defer="" src="../assets/app.js"></script>
+</body>
+</html>

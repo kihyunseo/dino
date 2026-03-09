@@ -1,0 +1,302 @@
+[
+  {
+    "product_id": "P-SEC-004",
+    "slug": "fiberpatrol-fp1150",
+    "name_ko": "FiberPatrol FP1150",
+    "name_en": "FiberPatrol FP1150",
+    "model": "FP1150",
+    "manufacturer": "Senstar",
+    "product_line": "perimeter-security",
+    "product_line_label": "경계보안",
+    "category": "fiber-optic-das",
+    "category_label": "광섬유 침입감지(DAS)",
+    "offering_type": "product",
+    "offering_type_label": "제품",
+    "is_featured": true,
+    "hero_tagline": "장거리 경계 구간을 ‘거리 기반’으로 위치까지 제공하는 광섬유 침입감지(DAS)",
+    "short_description": "광섬유 기반 DAS로 펜스/매설/월탑/파이프라인 구간의 침입 이벤트를 위치(Down‑cable 거리/구역)까지 제공합니다.",
+    "last_reviewed_at": "2026-03-01",
+    "chips": [
+      "최대 80 km(경계)",
+      "최대 100 km(TPI)",
+      "±4 m 위치",
+      "Cut-immune",
+      "EMI/번개 면역"
+    ],
+    "environments": [
+      "outdoor",
+      "all-weather",
+      "harsh-industrial"
+    ],
+    "protocols": [
+      "tcp-ip"
+    ],
+    "installation": [
+      "fence",
+      "buried",
+      "wall-top",
+      "pipeline",
+      "data-conduit",
+      "gate"
+    ],
+    "specs": {
+      "localization": true,
+      "max_perimeter_km": 80,
+      "max_tpi_km": 100,
+      "location_accuracy_m": 4
+    },
+    "url": "../product/fiberpatrol-fp1150/index.html",
+    "image_thumb": "../assets/img/fiberpatrol-thumb2.webp"
+  },
+  {
+    "product_id": "P-SEC-005",
+    "slug": "xfield-electrostatic-volumetric",
+    "name_ko": "XField",
+    "name_en": "XField",
+    "model": "XField",
+    "manufacturer": "Senstar",
+    "product_line": "perimeter-security",
+    "product_line_label": "경계보안",
+    "category": "electrostatic-volumetric",
+    "category_label": "정전장(Volumetric)",
+    "offering_type": "product",
+    "offering_type_label": "제품",
+    "is_featured": true,
+    "hero_tagline": "높고 좁은 감지존(Volumetric)으로 펜스/벽/옥상 침입을 정전장 기반으로 감지",
+    "short_description": "정전장(Electrostatic Field)을 형성하고 침입자의 접근/침투로 인한 변화를 DSP로 분석합니다.",
+    "last_reviewed_at": "2026-03-01",
+    "chips": [
+      "Volumetric",
+      "DSP",
+      "최대 7.3 m 높이",
+      "50/60 Hz 면역",
+      "USNRC RG 5.44"
+    ],
+    "environments": [
+      "outdoor",
+      "all-weather"
+    ],
+    "protocols": [
+      "rs-422",
+      "fiber"
+    ],
+    "installation": [
+      "fence",
+      "wall-top",
+      "roof"
+    ],
+    "specs": {
+      "localization": false,
+      "max_detection_height_m": 7.3
+    },
+    "url": "../product/xfield-electrostatic-volumetric/index.html",
+    "image_thumb": "../assets/img/xfield-thumb2.webp"
+  },
+  {
+    "product_id": "P-SEC-001",
+    "slug": "flexzone-tdr-intrusion-detection",
+    "name_ko": "FlexZone",
+    "name_en": "FlexZone",
+    "model": "FlexZone-4 / FlexZone-60",
+    "manufacturer": "Senstar",
+    "product_line": "perimeter-security",
+    "product_line_label": "경계보안",
+    "category": "fence-sensor",
+    "category_label": "펜스 침입감지(케이블)",
+    "offering_type": "product",
+    "offering_type_label": "제품",
+    "is_featured": true,
+    "hero_tagline": "펜스 침입(절단·등반·월담)을 감지하고 최대 600 m 구간을 ±3 m 정확도로 위치화하는 ‘Locating Fence PIDS’",
+    "short_description": "펜스에 부착한 센서 케이블의 미세 변형(진동)을 고속 샘플링/DSP로 분석해 침입을 감지하고, 존/거리 기반 위치 정보로 관제(SMS/PSIM/VMS)에 전달합니다.",
+    "last_reviewed_at": "2026-03-01",
+    "chips": [
+      "600 m/프로세서",
+      "±3 m 위치",
+      "최대 60 존",
+      "IP66(NEMA 4X)",
+      "EDAPT"
+    ],
+    "environments": [
+      "outdoor",
+      "all-weather",
+      "harsh-industrial"
+    ],
+    "protocols": [
+      "relay",
+      "tcp-ip",
+      "rs-422",
+      "fiber"
+    ],
+    "installation": [
+      "fence",
+      "gate"
+    ],
+    "specs": {
+      "localization": true,
+      "max_sensor_cable_m": 600,
+      "location_accuracy_m": 3,
+      "max_zones": 60,
+      "sensitivity_leveling": "미터 단위",
+      "ip_rating": "NEMA 4X (IP66)",
+      "power_input_vdc": "10 ~ 60 VDC",
+      "power_consumption_w_base": 2.0,
+      "power_consumption_w_comm": 2.5,
+      "aux_power_output": "2.0 W, 34~60 VDC",
+      "operating_temp_c": "-40 ~ +70",
+      "humidity": "100% (결로)",
+      "relay_outputs": "4× Form C (30VDC, 1.0A) + 옵션(추가 4)",
+      "aux_inputs": "건식접점 2× (네트워크 모드에서 보조입력 전환)",
+      "network_options": "EIA-422 / 멀티·싱글모드 Fiber(ST) / Ethernet(10/100BASE‑TX, PoE 옵션)",
+      "edapt": true
+    },
+    "url": "../product/flexzone-tdr-intrusion-detection/index.html",
+    "image_thumb": "../assets/img/flexzone-thumb2.webp"
+  },
+  {
+    "product_id": "P-SEC-006",
+    "slug": "senstar-multisensor",
+    "name_ko": "Senstar MultiSensor",
+    "name_en": "Senstar MultiSensor",
+    "model": "MultiSensor",
+    "manufacturer": "Senstar",
+    "product_line": "smart-perimeter",
+    "product_line_label": "스마트 경계보안",
+    "category": "multi-sensor",
+    "category_label": "멀티센서(AI Fusion)",
+    "offering_type": "product",
+    "offering_type_label": "제품",
+    "is_featured": true,
+    "hero_tagline": "레이더·PIR·영상분석을 ‘AI 센서 퓨전’으로 결합해 오경보를 줄이고 상황 인지를 강화",
+    "short_description": "Pre-alarm/Alarm 구역 분리, 센서 퓨전 기반 위협 분류로 운영 품질을 높이는 멀티센서.",
+    "last_reviewed_at": "2026-03-01",
+    "chips": [
+      "AI Sensor Fusion",
+      "Pre-alarm/Alarm",
+      "RTSP",
+      "PoE 3W(max)",
+      "IP54"
+    ],
+    "environments": [
+      "outdoor",
+      "indoor",
+      "all-weather"
+    ],
+    "protocols": [
+      "rtsp",
+      "tcp-ip",
+      "relay"
+    ],
+    "installation": [
+      "gate",
+      "building",
+      "open-area",
+      "fence"
+    ],
+    "specs": {
+      "localization": true,
+      "ip_rating": "IP54",
+      "poe_power_w_max": 3,
+      "operating_temp_c": "-40 ~ +60"
+    },
+    "url": "../product/senstar-multisensor/index.html",
+    "image_thumb": "../assets/img/multisensor-thumb2.webp"
+  },
+  {
+    "product_id": "P-SEC-007",
+    "slug": "smart-3d-lidar",
+    "name_ko": "Smart 3D LiDAR",
+    "name_en": "Smart 3D LiDAR",
+    "model": "Smart 3D LiDAR",
+    "manufacturer": "Senstar",
+    "product_line": "smart-perimeter",
+    "product_line_label": "스마트 경계보안",
+    "category": "lidar",
+    "category_label": "3D LiDAR",
+    "offering_type": "product",
+    "offering_type_label": "제품",
+    "is_featured": true,
+    "hero_tagline": "프라이버시 친화적인 3D 포인트클라우드로 ‘정확한 침입 감지’와 객체 크기 기반 필터링",
+    "short_description": "악천후/역광 환경에서도 강하고, 소동물/식생 오경보를 줄이기 위한 3D LiDAR 기반 감지.",
+    "last_reviewed_at": "2026-03-01",
+    "chips": [
+      "IP67",
+      "Range 85 m",
+      "FOV 90×50",
+      "PoE(802.3at)",
+      "MQTT/ONVIF"
+    ],
+    "environments": [
+      "outdoor",
+      "all-weather",
+      "harsh-industrial"
+    ],
+    "protocols": [
+      "onvif",
+      "mqtt",
+      "tcp-ip"
+    ],
+    "installation": [
+      "fence",
+      "gate",
+      "open-area",
+      "building"
+    ],
+    "specs": {
+      "localization": true,
+      "range_m": 85,
+      "fov_deg": "90×50",
+      "ip_rating": "IP67",
+      "poe_standard": "IEEE 802.3at Type 1",
+      "power_typ_w": 10,
+      "power_max_w": 13,
+      "frame_rate_hz": "1~50"
+    },
+    "url": "../product/smart-3d-lidar/index.html",
+    "image_thumb": "../assets/img/lidar-thumb2.webp"
+  },
+  {
+    "product_id": "P-SEC-008",
+    "slug": "omnitrax-buried-ported-coax",
+    "name_ko": "OmniTrax",
+    "name_en": "OmniTrax",
+    "model": "OmniTrax",
+    "manufacturer": "Senstar",
+    "product_line": "perimeter-security",
+    "product_line_label": "경계보안",
+    "category": "buried-sensor",
+    "category_label": "매설형 센서",
+    "offering_type": "product",
+    "offering_type_label": "제품",
+    "is_featured": true,
+    "hero_tagline": "지형을 따라 은밀하게 설치하는 매설형(Ported Coax) 센서 · 침입 위치를 1 m 단위로 제공",
+    "short_description": "포티드 코엑스(Ported Coax) 기반 매설 센서로, 인간 침입 감지에 최적화된 능동(Active) Volumetric 감지.",
+    "last_reviewed_at": "2026-03-01",
+    "chips": [
+      "Terrain-following",
+      "Active Volumetric",
+      "1 m 위치",
+      "최대 50존",
+      "소동물 억제"
+    ],
+    "environments": [
+      "outdoor",
+      "all-weather"
+    ],
+    "protocols": [
+      "rs-422",
+      "fiber",
+      "relay"
+    ],
+    "installation": [
+      "buried"
+    ],
+    "specs": {
+      "localization": true,
+      "location_resolution_m": 1,
+      "max_zones": 50,
+      "operating_temp_c": "-40 ~ +70"
+    },
+    "url": "../product/omnitrax-buried-ported-coax/index.html",
+    "image_thumb": "../assets/img/omnitrax-thumb2.webp"
+  }
+]

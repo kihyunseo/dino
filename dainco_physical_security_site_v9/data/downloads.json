@@ -1,0 +1,90 @@
+[
+  {
+    "doc_id": "DOC-004-EN-001",
+    "product_id": "P-SEC-004",
+    "product_name": "FiberPatrol FP1150",
+    "title_ko": "FiberPatrol FP1150 제품 발표자료",
+    "doc_type": "product-presentation",
+    "doc_type_label": "제품 발표자료",
+    "version_label": "2021",
+    "lang": "en",
+    "file_url": "files/fiberpatrol-fp1150-presentation-2021.pdf"
+  },
+  {
+    "doc_id": "DOC-005-EN-001",
+    "product_id": "P-SEC-005",
+    "product_name": "XField",
+    "title_ko": "XField 데이터시트",
+    "doc_type": "datasheet",
+    "doc_type_label": "데이터시트",
+    "version_label": "EN",
+    "lang": "en",
+    "file_url": "files/xfield-datasheet-en.pdf"
+  },
+  {
+    "doc_id": "DOC-001-KO-001",
+    "product_id": "P-SEC-001",
+    "product_name": "FlexZone",
+    "title_ko": "FlexZone 데이터시트",
+    "doc_type": "datasheet",
+    "doc_type_label": "데이터시트",
+    "version_label": "KO",
+    "lang": "ko",
+    "file_url": "files/flexzone-datasheet-ko.pdf"
+  },
+  {
+    "doc_id": "DOC-001-KO-002",
+    "product_id": "P-SEC-001",
+    "product_name": "FlexZone",
+    "title_ko": "스마트 외곽보안 시스템 카탈로그(다인S&T)",
+    "doc_type": "brochure",
+    "doc_type_label": "브로셔",
+    "version_label": "2021~2022",
+    "lang": "ko",
+    "file_url": "files/smart-perimeter-fence-catalog-ko.pdf"
+  },
+  {
+    "doc_id": "DOC-006-EN-001",
+    "product_id": "P-SEC-006",
+    "product_name": "Senstar MultiSensor",
+    "title_ko": "Senstar MultiSensor 제품 발표자료",
+    "doc_type": "product-presentation",
+    "doc_type_label": "제품 발표자료",
+    "version_label": "—",
+    "lang": "en",
+    "file_url": "files/senstar-multisensor-product-presentation.pdf"
+  },
+  {
+    "doc_id": "DOC-007-EN-001",
+    "product_id": "P-SEC-007",
+    "product_name": "Smart 3D LiDAR",
+    "title_ko": "Senstar Smart 3D LiDAR 개요 발표자료",
+    "doc_type": "product-presentation",
+    "doc_type_label": "제품 발표자료",
+    "version_label": "—",
+    "lang": "en",
+    "file_url": "files/senstar-smart-3d-lidar-overview.pdf"
+  },
+  {
+    "doc_id": "DOC-008-EN-001",
+    "product_id": "P-SEC-008",
+    "product_name": "OmniTrax",
+    "title_ko": "OmniTrax 제품 발표자료",
+    "doc_type": "product-presentation",
+    "doc_type_label": "제품 발표자료",
+    "version_label": "—",
+    "lang": "en",
+    "file_url": "files/omnitrax-product-presentation.pdf"
+  },
+  {
+    "doc_id": "DOC-COMMON-KO-001",
+    "product_id": "COMMON",
+    "product_name": "공통 자료",
+    "title_ko": "DAINCO 외곽 침입감지(PIDS) 소개 자료",
+    "doc_type": "brochure",
+    "doc_type_label": "브로셔",
+    "version_label": "—",
+    "lang": "ko",
+    "file_url": "files/dainco-pids.pdf"
+  }
+]
